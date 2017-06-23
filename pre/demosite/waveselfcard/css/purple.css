@@ -1,0 +1,72 @@
+/* The purple css style */
+
+#tabsContainer{	
+	border-top:5px solid #cc1099;
+}	
+
+#mainNav a.active{
+	background:url(../images/arrow-purple.png) no-repeat center 50px;
+}
+
+#mainNav a.active{
+	color:#cc1099;
+}
+
+
+.slides span {
+color: #1DD300;
+}
+
+
+.flexslider{
+	background-color:#cc1099;
+}
+
+.home-nav{
+	background-color:#cc1099;
+}
+
+.progress .bar {
+background-color: #cc1099;
+}
+
+#name-group{
+	background-color: #cc1099;
+}
+
+
+
+#myself-container img{
+	background-color: #cc1099;
+}
+
+.portfolio-description{
+	background-color:#cc1099;
+}
+
+.description, .social-item, #twitter, #contactForm, #contactInfo, .download-item{
+	background-color:#cc1099;
+}
+
+
+ul#category{
+	border-bottom:2px solid #cc1099;
+}
+
+ul#category li:hover{
+	background-color: #cc1099 !important;
+}
+
+.current{
+	background-color: #cc1099 !important;
+}
+
+
+input#submit:hover{
+	background-color:#cc1099;
+}
+
+footer span + span a{
+	color:#cc1099;
+}
+

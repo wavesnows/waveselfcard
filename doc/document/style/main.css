@@ -1,0 +1,162 @@
+/* ----------------------------------------- Global and Standard Styling ---------------------------------------------*/
+html{
+	height:100%;
+	background:#000;
+	margin:0;
+	padding:0; 
+}
+ body {
+    font-family:'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+}
+
+
+a {
+    color:#3c3c3c;
+    cursor:pointer;
+	display: inline-block;
+	text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 300 !important;
+}
+
+
+pre code {
+overflow-wrap: break-word;
+}
+
+
+#logo{
+
+	position:fixed;
+	top:30px;
+	width:250;
+	color:#fefefe;
+}
+
+
+#logo h1{
+	font-size:1.4em;
+	color:#fff;
+}
+
+#logo p{
+	color:#eee;
+}
+
+
+#footer{
+	position:fixed;
+	left:10px;
+	bottom:15px;
+	width:250;
+	color:#fefefe;	
+}
+
+
+.etabs { 
+	margin: 0; 
+	padding: 0;
+	position:fixed;
+	top:280px;
+	width:240px;
+	
+}
+
+.etabs a{
+	color:#efefef;	
+}
+
+
+.tab { 
+	zoom:1;  
+	list-style:none;
+	padding-left:20px;
+}
+
+
+
+.tab a { 
+	font-size: 14px; 
+	line-height: 2em; 
+	display: block; 
+	padding: 0 10px; 
+	outline: none; 
+}
+
+    
+.tab.active { 
+	background: #00b4d9; 
+	
+}
+    
+.tab a.active { 
+	font-weight: bold; 
+	color:#fefefe;
+}
+	
+	
+
+	
+	
+.tab-container .panel-container { 
+	background: #fff;
+	border: solid #666 1px; 
+	padding: 20px 30px;
+	border-radius:10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	margin:95px 30px 50px 260px;
+	
+}
+
+
+.panel-container { 
+	margin-bottom: 10px; 
+}
+
+
+
+#features ul{
+	display:block;
+	float:left;
+}
+
+#features img{
+	float:left;
+	margin-left:30px;
+}
+
+#featurelist {
+	margin-top:50px;
+	display:block;
+}
+
+.clear{
+	clear:both;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,678 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wave Self Card</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--Main styles-->
+<link rel="stylesheet" href="css/prettyPhoto.css"/>
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+
+<!--Alternate styles-->
+<link rel="stylesheet" href="css/blue.css" title="blue" />
+<link rel="alternate stylesheet" href="css/red.css" title="red" />
+<link rel="alternate stylesheet" href="css/yellow.css" title="yellow" />
+<link rel="alternate stylesheet" href="css/green.css" title="green" />
+<link rel="alternate stylesheet" href="css/purple.css" title="purple" />
+
+<!--JavaScript lib-->
+<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script> 
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script  src="js/jquery.prettyPhoto.js" type="text/javascript"></script> 
+<script src="js/jquery.easytabs.min.js" type="text/javascript"></script>
+<script src="js/jquery.quicksand.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/jquery.poshytip.min.js" type="text/javascript"></script>
+<script src="js/jquery.validate.js" type="text/javascript"></script>
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="js/jquery.hoverflow.min.js" type="text/javascript"></script>
+<script src='js/modernizr.js' type='text/javascript'></script>
+<script src="js/inline.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<style>
+/* For IE < 8 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+</style>
+<![endif]--> 
+</head> 
+<body>
+	<!--Styles switcher-->
+	<div id ="styleswitcher">
+		
+		<div id="inset">
+		<div id="coloroptions">
+			<figure class="figcol"><img src="images/color.png" alt=""></figure>
+			<ul>
+			<li class="blue"><a href="#" onclick="setActiveStyleSheet('blue'); return false;">Blue</a></li>
+            <li class="red"><a href="#" onclick="setActiveStyleSheet('red'); return false;">Red</a></li>
+			<li class="yellow"><a href="#" onclick="setActiveStyleSheet('yellow'); return false;">Yellow</a></li>
+			<li class="green"><a href="#" onclick="setActiveStyleSheet('green'); return false;">Green</a></li>
+            <li class="purple"><a href="#" onclick="setActiveStyleSheet('purple'); return false;">Purple</a></li>
+			</ul>
+			
+			</div>
+		<div id="patternoptions">
+				<figure class="figpatt"><img src="images/pattern.png" alt=""></figure>
+			<ul>
+			<li><a class="switcher" href="#" data-id="1"><img src="images/pattern/p1.png" width="35" height="20" alt=""/></a></li>
+			<li><a class="switcher" href="#" data-id="2"><img src="images/pattern/p2.png" width="35" height="20" alt=""/></a></li>
+			<li><a class="switcher" href="#" data-id="10"><img src="images/pattern/p10.png" width="35" height="20" alt=""/></a></li>
+			<li><a class="switcher" href="#" data-id="11"><img src="images/pattern/p11.png" width="35" height="20" alt=""/></a></li>
+            <li><a class="switcher" href="#" data-id="30"><img src="images/pattern/p30.png" width="35" height="20" alt=""/></a></li>
+
+			</ul>
+		</div>
+		</div>
+		</div>
+		
+	<!-- End tyles switcher -->
+	<!--Page Wrraper-->
+	<div id="wrapper">
+			
+<!-- Tabs Container-->
+<section id="tabsContainer">
+	<!--Inner-->
+	<div id="innerBg">
+            <!--Page Header-->
+            <header id="header">	
+                <nav id="mainNav">
+                <ul  class="tabs">
+                    <li ><a href="#home">
+                    <i class="icon-home header-icon" ></i>
+                    <span>Home</span>
+                    </a></li>
+                    <li ><a href="#about">
+                    <i class="icon-user header-icon" ></i>
+                    <span>About Me</span>
+                    </a></li>
+                    <li><a href="#portfolio">
+                    <i class="icon-star header-icon" ></i>
+                    <span>Portfolio</span>
+                    </a></li>
+                    <li><a  href="#social">
+                    <i class="icon-share header-icon" ></i>
+                    <span>Social</span>
+                    </a></li>
+                    <li><a  href="#contact">
+                    <i class="icon-envelope header-icon" ></i>
+                    <span>Contact</span>
+                    </a></li>
+                    <li><a  href="#download">
+                    <i class="icon-cloud-download header-icon" ></i>
+                    <span>Download</span>
+                    </a></li>
+                    </ul>
+                </nav>	
+            </header>
+            <!--End Page Header-->
+	<!--Home Tab-->
+    <article id="home" class="clearfix">
+        <div class="flexslider">
+        <span class="big-title home welcome-text">Hello, I'm ready to help you for </span>
+          <ul class="slides">
+            <li><span>Web Design</span></li>
+            <li><span>Online Advertising</span></li>
+            <li><span>Graphic Design</span></li>  
+            <li><span>Brand Activation</span></li>
+            <li><span>Social Media</span></li>
+            <li><span>SEO</span></li>  
+          </ul>   
+        </div>
+    	<div id="home-nav-wraper">
+       		<a id="#about" href="#" class="mini-content trigger">
+            	<div class="home-nav article-container">  
+                	<div class="home-icon-container"><i class="icon-user home-icon" ></i></div>
+               		<span>About Me</span>    
+            	</div>
+                <div class="mini-shadow-container">
+              		<img class="mini-shadow" src="images/item-shadow.png" alt="" width="270" height="22">
+                </div>
+            </a>
+            <a id="#portfolio" href="#" class="mini-content trigger">
+            	<div class="home-nav article-container">  
+                	<div class="home-icon-container"><i class="icon-trophy home-icon" ></i></div>
+               		<span>Portfolio</span>    
+            	</div>
+                <div class="mini-shadow-container">
+              		<img class="mini-shadow" src="images/item-shadow.png" alt="" width="270" height="22">
+                </div>
+            </a>
+            <a id="#social" href="#" class="mini-content trigger">
+            	<div class="home-nav article-container">  
+                	<div class="home-icon-container"><i class=" icon-comments-alt home-icon" ></i></div>
+               		<span>Social</span>    
+            	</div>
+                <div class="mini-shadow-container">
+              		<img class="mini-shadow" src="images/item-shadow.png" alt="" width="270" height="22">
+                </div>               
+            </a>
+            <a id="#contact" href="#" class="mini-content trigger">
+            	<div class="home-nav article-container">  
+                	<div class="home-icon-container"><i class=" icon-envelope-alt home-icon" ></i></div>
+               		<span>Contact</span>    
+            	</div>
+                <div class="mini-shadow-container">
+              		<img class="mini-shadow" src="images/item-shadow.png" alt="" width="270" height="22">
+                </div>                
+            </a>
+       </div>
+    </article>    
+	<!--About Tab-->
+	<article id="about" class="clearfix">
+        <div id="name-group">
+        	<h1>John Doe</h1>
+        	<h3>WebDesigner/Developer</h3>
+        </div>
+        <div>
+            <div id="myself-container">
+                <img src="images/myself2.png">
+            </div>     
+            <div id="about" class="description">
+                <!--Intro Section-->
+                <section id="introduction" >
+                    <h2>About Me</h2>
+                    <p>Sed elementum tellus sed rhoncus dignissim, arcu erat interdum nunc, ut molestie eros nulla et nisl. Nam quis dui nulla. Nullam in nulla eros. Ut molestie eros arcu erat interdum nunc, ut molestie.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                    </p>
+                </section>
+                <!--End Intro Section-->
+            </div>
+         </div>
+        <!--End About Tab-->
+        <div id="skill-container">
+        <h2>Skills</h2>
+        <div class="skill-group">
+            <div class="progress">
+              <div class="bar background-purple" data-score="95" style="width: 95%;">
+                  <span class="skill-title">HTML 5</span>
+                    <span class="title-score">95</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="bar background-purple" data-score="75" style="width: 75%;">
+                  <span class="skill-title">Photoshop</span>
+                    <span class="title-score">75</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="bar background-purple" data-score="70" style="width: 70%;">
+                  <span class="skill-title">Javascript</span>
+                    <span class="title-score">70</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-group">  
+                    <div class="progress">
+              <div class="bar background-purple" data-score="85" style="width: 85%;">
+                  <span class="skill-title">PHP</span>
+                    <span class="title-score">85</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="bar background-purple" data-score="70" style="width: 70%;">
+                  <span class="skill-title">Icon-Design</span>
+                    <span class="title-score">70</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="bar background-purple" data-score="95" style="width: 95%;">
+                  <span class="skill-title">Wordpress</span>
+                    <span class="title-score">95</span>
+              </div>
+            </div>
+        </div>                
+        <div class="skill-group">  
+                    <div class="progress">
+              <div class="bar background-purple" data-score="65" style="width: 65%;">
+                  <span class="skill-title">After Effect</span>
+                    <span class="title-score">65</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="bar background-purple" data-score="80" style="width: 80%;">
+                  <span class="skill-title">Dreamweaver</span>
+                    <span class="title-score">80</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="bar background-purple" data-score="95" style="width: 95%;">
+                  <span class="skill-title">Flash</span>
+                    <span class="title-score">95</span>
+              </div>
+            </div>
+        </div>
+        </div>
+                
+	</article>
+
+	<!--Portfolio Tab-->
+	<article id="portfolio" class="clearfix">
+        <div class="description">
+           	<h2>My Works</h2>
+            <h3>Sed elementum tellus sed rhoncus dignissim, arcu erat interdum nunc, ut molestie eros nulla et nisl. Nam quis dui nulla. Nullam in nulla eros. 
+           </h3>
+        </div>
+    
+    
+		<!-- Filter nav -->
+        <ul id="category" class="filter">
+            <li class="all current"><a href="#" >All</a></li>
+            <li class="Design"><a href="#">Design</a></li>
+            <li class="Development"><a href="#">Development</a></li>
+            <li class="Animation"><a href="#">Animation</a></li>
+        </ul>
+        <!-- Filter nav -->			
+				
+		<!-- Works list -->
+        <section id="works">
+            <ul id="items" class="portfolio">   			
+                <li data-id="id-1" data-type="Design" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview02.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum01.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Design</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                 </li>
+          
+                <li data-id="id-2" data-type="Development" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview02.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum02.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Development</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                    
+                 </li>
+                <li data-id="id-3" data-type="Design" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview02.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum03.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Design</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                    
+                 </li>
+                <li data-id="id-4" data-type="Development" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview02.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum04.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Development</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                    
+                 </li>
+                <li data-id="id-5" data-type="Design" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview01.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum05.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Design</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                    
+                 </li>
+                <li data-id="id-6" data-type="Design" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview01.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum06.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Design</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                    
+                 </li>
+                <li data-id="id-7" data-type="Design" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview01.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum07.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Design</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                    
+                 </li>
+                <li data-id="id-8" data-type="Animation" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview01.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum08.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Animation</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                    
+                 </li>
+                <li data-id="id-9" data-type="Animation" class="item">
+                    <div class="mini-content item-container">
+                        <div class="portfolio-description article-container">
+                            <a href="images/workimages/preview01.jpg" data-type="prettyPhoto[portfolio]">
+                            <img src="images/workimages/thum09.jpg" width="180" height="160" alt="" />
+                            </a> 
+                            <h3>Project title<span> / In Animation</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="180" height="20">
+                        </div> 
+                    </div>
+                 </li>
+                </ul>
+            </section>
+            <!-- End Works list -->
+		</article>
+			<!--End About Portfolio Tab-->
+				
+			<!--Social Tab-->	
+		<article id="social" class="clearfix">
+        
+          <div class="description">
+           	<h2>My Social networks</h2>
+            <h3>Sed elementum tellus sed rhoncus dignissim, arcu erat interdum nunc, ut molestie eros nulla et nisl. Nam quis dui nulla. Nullam in nulla eros. 
+           </h3>
+          </div>
+		<!-- Socials -->	
+			<section id="socialsLists" class="clearfix">
+				<ul class="socialList1 ">
+                
+                <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-facebook-sign" ></i>
+                        </div>
+                            <h3>FaceBook</h3>
+                            <span>facebook.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-twitter-sign" ></i>
+                        </div>
+                            <h3>Twitter</h3>
+                            <span>twitter.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                 <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-flickr" ></i>
+                        </div>
+                            <h3>Flickr</h3>
+                            <span>flickr.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                </ul>
+
+
+				<ul class="socialList1 ">
+                
+                <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-google-plus-sign" ></i>
+                        </div>
+                            <h3>Google</h3>
+                            <span>plus.google.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-linkedin-sign" ></i>
+                        </div>
+                            <h3>Linkedin</h3>
+                            <span>linkedin.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                 <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-youtube-sign" ></i>
+                        </div>
+                            <h3>youtube</h3>
+                            <span>youtube.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                </ul>
+                
+				<ul class="socialList2">
+                
+                <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-rss-sign" ></i>
+                        </div>
+                            <h3>Rss</h3>
+                            <span>rss.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-skype" ></i>
+                        </div>
+                            <h3>Skype</h3>
+                            <span>skype.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                 <li><a href="#" >
+                    <div class="mini-content social-container">
+                        <div class="article-container social-item">
+                        <div class="social-image">
+                        <i class="icon-pinterest-sign" ></i>
+                        </div>
+                            <h3>Pinterest</h3>
+                            <span>pinterest.com/yourname</span>
+                        </div> 
+                        <div class="mini-shadow-container">
+                            <img class="mini-shadow" src="images/item-shadow.png" alt="" width="200"  height="20">
+                        </div> 
+                    </div>
+                    </a>
+                 </li>
+                </ul>
+			</section>
+			<!-- End Socials -->
+						
+			<!-- Tweets -->	
+			<section id="twitter" class="clearfix">
+                <div class="social-image"> <i class="icon-twitter" ></i></div>
+                <h2>Latest Tweets</h2><h3>Wavesnows@Wavesnows</h3>
+                <span>Sed elementum tellus sed rhoncus dignissim, arcu erat interdum nunc, ut molestie eros nulla et nisl. Nam quis dui nulla.
+				</span>
+			</section>
+			<!-- End Tweets -->	
+		</article>
+			<!--End Social Tab-->	
+		<!--Contact Tab-->	
+		<article id="contact" class="clearfix">
+          <div class="description">
+           	<h2>Contact</h2>
+            <h3>Sed elementum tellus sed rhoncus dignissim, arcu erat interdum nunc, ut molestie eros nulla et nisl. Nam quis dui nulla. Nullam in nulla eros. 
+           </h3>
+          </div>
+			<!--Contact form-->		
+			<section id="contactForm">
+				<h3>Feel free to send me an email</h3>
+				<form class="contactForm" method="post" action="send.php">
+			        <input type="text" name="name" id="name" placeholder="Your Name" class="required">
+			        <input type="email" name="email" id="email"  placeholder="Your Email" class="required">
+			        <textarea name="message" id="message"  cols="45" rows="10" placeholder="Your Message" class="required"></textarea>
+			        <input type="submit" name="submit" id="submit" value="Send your email">
+			      </form>
+				</section>
+				
+				<!--End Contact form-->	
+				
+				<!--Contact info-->	
+				<section id="contactInfo">
+						<h3>Contact Information</h3>
+						<figure>
+                        <a href="#map-canvas" id="googlemap" data-type="prettyPhoto" title="View Via Google Maps">
+                        <img src="images/map280.png"  alt=""/></a>
+                        </figure>
+						
+						<div id="map-canvas" style="display:none;" >
+													
+                        <iframe width="100%" scrolling="no"  src="map.html"></iframe>
+						
+							
+						</div>
+					   
+						<p class="hr">The Company Name Inc.
+						1234 Street Road,
+						City Name, IN 567 890.</p>
+						
+                            <ul> 
+						<li><span>Telephone</span> : + 1-234-569-2567</li>
+						<li><span>Cellphone</span> : + 123-456-789</li>
+						<li><span>Fax</span> : + 103-756-702</li>
+
+						<li><span>Email</span> : name@yoursite.com</li>
+							<li><span>Website</span> : http://www.yoursite.com</li>
+							</ul>
+					</section>
+					<!--End Contact info-->	
+		</article>
+			<!--End Contact Tab-->	
+        <!--Download Tab-->	
+		<article id="download" class="clearfix">
+			<div class="description">
+           	<h2>Download My Vcard</h2>
+            <h3>Sed elementum tellus sed rhoncus dignissim, arcu erat interdum nunc, ut molestie eros nulla et nisl. Nam quis dui nulla. Nullam in nulla eros. 
+           </h3>
+          </div>
+          <div id="download-container">
+          <a href="#" >
+               <div class="mini-content social-container">
+                    <div class="article-container download-item">
+                    <div class="social-image">
+                    <i class="icon-download-alt" ></i>
+                    </div>
+                        <h3>Download</h3>
+                        <span>my vcard</span>
+                    </div> 
+                    <div class="mini-shadow-container">
+                        <img class="mini-shadow" src="images/item-shadow.png" alt=""  height="20">
+                    </div> 
+                 </div>
+            </a>
+          </div>
+	
+		</article>
+	<!--End Download info-->	
+</div>
+<!--End Inner-->		
+</section>
+<!--End Tabs Container-->
+
+<!-- Page Footer-->
+<footer id="pageFooter">
+	<p>Copyright 2013 WaveSnow Themes Personal Vcard - By <span>WaveSnow</span></p>
+</footer>
+<!--End Page Footer-->
+</div>
+<script src="js/welcome.js" type="text/javascript" ></script> 
+<!--End Page Wrraper-->
+</body>
+</html>

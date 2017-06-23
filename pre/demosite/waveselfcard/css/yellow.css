@@ -1,0 +1,67 @@
+/* The yellow css style */
+
+#tabsContainer{	
+	border-top:5px solid #fdc62a;
+}	
+
+#mainNav a.active{
+	background:url(../images/arrow-yellow.png) no-repeat center 50px;
+}
+
+#mainNav a.active{
+	color:#fdc62a;
+}
+
+
+.flexslider{
+	background-color:#fdc62a;
+}
+
+.home-nav{
+	background-color:#fdc62a;
+}
+
+.progress .bar {
+background-color: #fdc62a;
+}
+
+#name-group{
+	background-color: #fdc62a;
+}
+
+
+
+#myself-container img{
+	background-color: #fdc62a;
+}
+
+.portfolio-description{
+	background-color:#fdc62a;
+}
+
+.description, .social-item, #twitter, #contactForm, #contactInfo, .download-item{
+	background-color:#fdc62a;
+}
+
+
+ul#category{
+	border-bottom:2px solid #fdc62a;
+}
+
+ul#category li:hover{
+	background-color: #fdc62a !important;
+}
+
+.current{
+	background-color: #fdc62a !important;
+}
+
+
+input#submit:hover{
+	background-color:#fdc62a;
+}
+
+footer span + span a{
+	color:#fdc62a;
+}
+

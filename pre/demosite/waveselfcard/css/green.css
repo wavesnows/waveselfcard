@@ -1,0 +1,67 @@
+/* The green css style */
+
+#tabsContainer{	
+	border-top:5px solid #a4ce3f;
+}	
+
+#mainNav a.active{
+	background:url(../images/arrow-green.png) no-repeat center 50px;
+}
+
+#mainNav a.active{
+	color:#a4ce3f;
+}
+
+
+.flexslider{
+	background-color:#a4ce3f;
+}
+
+.home-nav{
+	background-color:#a4ce3f;
+}
+
+.progress .bar {
+background-color: #a4ce3f;
+}
+
+#name-group{
+	background-color: #a4ce3f;
+}
+
+
+
+#myself-container img{
+	background-color: #a4ce3f;
+}
+
+.portfolio-description{
+	background-color:#a4ce3f;
+}
+
+.description, .social-item, #twitter, #contactForm, #contactInfo, .download-item{
+	background-color:#a4ce3f;
+}
+
+
+ul#category{
+	border-bottom:2px solid #a4ce3f;
+}
+
+ul#category li:hover{
+	background-color: #a4ce3f !important;
+}
+
+.current{
+	background-color: #a4ce3f !important;
+}
+
+
+input#submit:hover{
+	background-color:#a4ce3f;
+}
+
+footer span + span a{
+	color:#a4ce3f;
+}
+

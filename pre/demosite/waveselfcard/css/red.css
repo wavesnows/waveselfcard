@@ -1,0 +1,76 @@
+/* The red css style */
+
+#tabsContainer{	
+	border-top:5px solid #ef0007;
+}	
+
+#mainNav a.active{
+	background:url(../images/arrow-red.png) no-repeat center 50px;
+}
+
+#mainNav a.active{
+	color:#ef0007;
+}
+
+
+.slides span {
+color: #1DD300;
+}
+
+
+.flexslider{
+	background-color:#ef0007;
+}
+
+.home-nav{
+	background-color:#ef0007;
+}
+
+.progress .bar {
+background-color: #ef0007;
+}
+
+#name-group{
+	background-color: #ef0007;
+}
+
+
+
+#myself-container img{
+	background-color: #ef0007;
+}
+
+.portfolio-description{
+	background-color:#ef0007;
+}
+
+
+.description, .social-item, #twitter, #contactForm, #contactInfo, .download-item{
+	background-color:#ef0007;
+}
+
+
+ul#category{
+	border-bottom:2px solid #ef0007;
+}
+
+ul#category li:hover{
+	background-color: #ef0007 !important;
+}
+
+.current{
+	background-color: #ef0007 !important;
+}
+
+
+input#submit:hover{
+	background-color:#ef0007;
+}
+
+footer span + span a{
+	color:#ef0007;
+}
+
+label.error {
+color: #00ff00;
+}
