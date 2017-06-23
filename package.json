@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "http-server ./pre/demosite/waveselfcard -p 8000 -o"
+    "start" : "http-server ./pre/demosite/waveselfcard -p 8000 -o",
+    "doc" : "http-server ./doc/document -p 8001 -o"
   },
   "repository": {
     "type": "git",
