@@ -1,0 +1,32 @@
+{
+  "name": "waveselfcard",
+  "version": "1.0.0",
+  "description": "a html template for self introduce",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "http-server ./pre/demosite/waveselfcard -p 8000 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavesnows/waveselfcard.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "jquery"
+  ],
+  "author": "wavesnows",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/wavesnows/waveselfcard/issues"
+  },
+  "homepage": "https://github.com/wavesnows/waveselfcard#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

@@ -1,0 +1,66 @@
+/* The blue css style */
+
+#tabsContainer{	
+	border-top:5px solid #00b4d9;
+}	
+
+#mainNav a.active{
+	background:url(../images/arrow-blue.png) no-repeat center 50px;
+}
+
+#mainNav a.active{
+	color:#00b4d9;
+}
+
+.flexslider{
+	background-color:#00b4d9;
+}
+
+.home-nav{
+	background-color:#00b4d9;
+}
+
+.progress .bar {
+background-color: #00b4d9;
+}
+
+#name-group{
+	background-color: #00b4d9;
+}
+
+
+
+#myself-container img{
+	background-color: #00b4d9;
+}
+
+.portfolio-description{
+	background-color:#00b4d9;
+}
+
+.description, .social-item, #twitter, #contactForm, #contactInfo, .download-item{
+	background-color:#00b4d9;
+}
+
+
+ul#category{
+	border-bottom:2px solid #00b4d9;
+}
+
+ul#category li:hover{
+	background-color: #00b4d9 !important;
+}
+
+.current{
+	background-color: #00b4d9 !important;
+}
+
+
+input#submit:hover{
+	background-color:#00b4d9;
+}
+
+footer span + span a{
+	color:#00b4d9;
+}
+
